@@ -2,7 +2,7 @@
 
 .hero {
   background-color: $color-hero-bg;
-  }
+}
 
 .hero__container {
   display: flex;
@@ -244,6 +244,7 @@
 
 .additional {
   background-color: $color-white;
+  color: $color-black-3;
 }
 
 .additional__container {
@@ -254,7 +255,6 @@
   margin: 0 0 41px 20px;
   font-size: 32px;
   line-height: 36px;
-  color: $color-black-3;
 }
 
 .additional__cards {
@@ -266,10 +266,11 @@
   width: 100%;
   max-width: 298px;
   padding: 0 35px 0 20px;
+  line-height: 24px;
 }
 
 .additional__card-img {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
   filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
   border-radius: 3px;
 }
@@ -277,10 +278,12 @@
 .additional__card-heading {
   margin-top: 0;
   margin-bottom: 13px;
+  font-size: 15px;
 }
 
 .additional__card-text {
   margin: 0;
+  font-size: 15px;
 }
 
 // COPYRIGHT
@@ -288,13 +291,15 @@
 .copyright {
   background-color: $color-copyright-bg;
 }
+
 .copyright__container {
   padding: 15px 0;
 }
+
 .copyright__text {
   margin: 0;
   color: $color-black-7;
   font-size: 12px;
-line-height: 20px;
+  line-height: 20px;
 
 }

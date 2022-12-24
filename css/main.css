@@ -316,6 +316,7 @@ a {
 
 .additional {
   background-color: #fff;
+  color: #333;
 }
 
 .additional__container {
@@ -326,7 +327,6 @@ a {
   margin: 0 0 41px 20px;
   font-size: 32px;
   line-height: 36px;
-  color: #333;
 }
 
 .additional__cards {
@@ -338,6 +338,7 @@ a {
   width: 100%;
   max-width: 298px;
   padding: 0 35px 0 20px;
+  line-height: 24px;
 }
 
 .additional__card-img {
@@ -349,10 +350,12 @@ a {
 .additional__card-heading {
   margin-top: 0;
   margin-bottom: 13px;
+  font-size: 15px;
 }
 
 .additional__card-text {
   margin: 0;
+  font-size: 15px;
 }
 
 .copyright {
