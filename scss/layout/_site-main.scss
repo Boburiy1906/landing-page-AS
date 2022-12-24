@@ -283,3 +283,19 @@
 .additionla__card-text {
   padding: 20px;
 }
+
+// COPYRIGHT
+
+.copyright {
+  background-color: $color-copyright-bg;
+}
+.copyright__container {
+  padding: 15px 0;
+}
+.copyright__text {
+  margin: 0;
+  color: $color-black-7;
+  font-size: 12px;
+line-height: 20px;
+
+}
