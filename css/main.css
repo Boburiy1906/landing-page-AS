@@ -319,11 +319,11 @@ a {
 }
 
 .additional__container {
-  padding: 80px 0;
+  padding: 100px 0 80px;
 }
 
 .additional__title {
-  margin: 18px 0 41px;
+  margin: 0 0 41px 20px;
   font-size: 32px;
   line-height: 36px;
   color: #333;
@@ -331,14 +331,13 @@ a {
 
 .additional__cards {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .additional__card {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   max-width: 298px;
+  padding: 0 35px 0 20px;
 }
 
 .additional__card-img {
@@ -352,8 +351,8 @@ a {
   margin-bottom: 13px;
 }
 
-.additionla__card-text {
-  padding: 20px;
+.additional__card-text {
+  margin: 0;
 }
 
 .copyright {
