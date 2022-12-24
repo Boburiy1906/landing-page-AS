@@ -5,7 +5,6 @@
   src: local(""), url("../../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../../fonts/roboto-v30-latin-regular.woff") format("woff");
   font-display: swap;
 }
-
 *,
 *::after,
 *::before {
@@ -270,7 +269,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .manual__card {
@@ -318,28 +316,25 @@ a {
 
 .additional {
   background-color: #fff;
-  color: #333;
-  line-height: 24px;
 }
 
 .additional__container {
-  padding: 100px 0 80px;
+  padding: 80px 0;
 }
 
 .additional__title {
-  margin: 0;
-  margin-bottom: 41px;
+  margin: 18px 0 41px;
   font-size: 32px;
   line-height: 36px;
+  color: #333;
 }
 
 .additional__cards {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .additional__card {
-  padding: 0 35px 0 20px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -355,13 +350,18 @@ a {
 .additional__card-heading {
   margin-top: 0;
   margin-bottom: 13px;
-  font-size: 18px;
 }
 
 .additionla__card-text {
-  font-size: 15px;
-  margin: 0;
-  flex-grow: 1;
+  padding: 20px;
 }
 
-/*# sourceMappingURL=main.css.map */
+.footer {
+  background-color: #6b6b6b;
+}
+
+.footer__container {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
