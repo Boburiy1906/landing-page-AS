@@ -111,7 +111,7 @@ a {
 .hero__text {
   margin-top: 0;
   margin-bottom: 30px;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 26px;
 }
 
@@ -121,7 +121,7 @@ a {
   background-color: #fff;
   padding: 15px 25px;
   color: #000;
-  font-style: 14px;
+  font-size: 14px;
   line-height: 20px;
 }
 
@@ -202,7 +202,7 @@ a {
   width: 100%;
   max-width: 509px;
   margin: 0;
-  font-style: 15px;
+  font-size: 15px;
   line-height: 24px;
 }
 
@@ -250,7 +250,7 @@ a {
 
 .manual__text {
   margin: 0 0 40px;
-  font-style: 15px;
+  font-size: 15px;
   line-height: 24px;
 }
 
