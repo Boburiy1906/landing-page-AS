@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>scss</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <a class="header__logo" href="#">
+        <img src="img/logo.png" alt="logo" width="97" height="20">
+      </a>
+      <nav class="sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Home</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">About</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__info">
+          <h2 class="hero__title">Double click text to change it</h2>
+          <p class="hero__text">To style this paragraph, select this paragraph, then edit its styles in the Style tab
+            on the right side of the Designer.</p>
+          <a class="hero__link" href="#">Edit this link in the settings tab in the right panel</a>
+        </div>
+
+        <div class="hero__box">
+          <img class="hero__img" src="img/hero-img.png" alt="hero-img" width="239" height="294">
+          <p class="hero__box-text">In the navigator tab located in the right panel you can see all your elements in one
+            place.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="company">
+      <div class="company__container container">
+        <img class="company__img" src="img/facebook.png" alt="facebook" width="41" height="48"
+          srcset="img/facebook.png 1x, img/facebook@2x.png 2x">
+        <img class="company__img" src="img/stripe.png" alt="stripe" width="92" height="47"
+          srcset="img/stripe.png 1x, img/stripe@2x.png 2x">
+        <img class="company__img" src="img/apple.png" alt="apple" width="34" height="48"
+          srcset="img/apple.png 1x, img/apple@2x.png 2x">
+        <img class="company__img" src="img/fitbit.png" alt="fitbit" width="117" height="47"
+          srcset="img/fitbit.png 1x, img/fitbit@2x.png 2x">
+        <img class="company__img" src="img/buzzfeed.png" alt="buzzfeed" width="132" height="45"
+          srcset="img/buzzfeed.png 1x, img/buzzfeed@2x.png 2x">
+        <img class="company__img" src="img/sega.png" alt="sega" width="89" height="39"
+          srcset="img/sega.png 1x, img/sega@2x.png 2x">
+        <img class="company__img" src="img/dropbox.png" alt="dropbox" width="46" height="52"
+          srcset="img/dropbox.png 1x, img/dropbox@2x.png 2x">
+        <img class="company__img" src="img/google.png" alt="google" width="113" height="50"
+          srcset="img/google.png 1x, img/google@2x.png 2x">
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="articles__container container">
+        <div class="articles__box">
+          <div class="articles__box-info">
+            <h3 class="articles__title">What is a Class?</h3>
+            <p class="articles__text">A Class is more than just the name of an element, it is a title you create that
+              can be added to other elements that you'd like to be styled the same way. Notice that if you select this
+              paragraph, and change it, it will effect the paragraph below as well, since they have the same Class.</p>
+          </div>
+          <div class="articles__box-img">
+            <img class="articles__img" src="img/articles-top-icon.png" width="240" height="260">
+            <p class="articles__box-text">Double click an image to replace it.</p>
+          </div>
+        </div>
+
+        <div class="articles__box">
+          <div class="articles__box-img">
+            <img class="articles__img" src="img/articles-bottom-icon.png" width="240" height="166">
+            <p class="articles__box-text">You can also double click an image to change its size.</p>
+          </div>
+          <div class="articles__box-info">
+            <h3 class="articles__title">Parents, and text alignment</h3>
+            <p class="articles__text">By now you may have noticed that web design, simply put, is a series of boxes
+              inside of boxes with text and images inside of them. Try selecting the parent element of this text</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="manual">
+      <div class="manual__container container">
+        <h2 class="manual__title">Layout tip</h2>
+        <p class="manual__text">Change the layout direction of a flexbox element from horizontal to vertical.</p>
+        <img class="manual__img" src="img/manual-top-icon.png" width="240" height="98">
+        <ul class="manual__list">
+          <li class="manual__item">Flexbox is a display setting found in the styles tab under</li>
+          <li class="manual__item">Layout > Display Settings</li>
+        </ul>
+
+        <div class="manual__cards">
+          <div class="manual__card">
+            <div class="manual__card-wrapper">
+              <h3 class="manual__card-step">Step 1</h3>
+              <img class="manual__icon" src="img/step1.png" alt="step 1" width="100" height="100">
+              <p class="manual__card-text">Click to select <span>Column 1</span> which is the white box that this
+                paragraph you're reading is currently inside of.</p>
+            </div>
+          </div>
+          <div class="manual__card">
+            <div class="manual__card-wrapper">
+              <h3 class="manual__card-step">Step 2</h3>
+              <img class="manual__icon" src="img/step2.png" alt="step 2" width="100" height="100">
+              <p class="manual__card-text">Now that <span>Column 1</span> is selected, press the up arrow on your keyboard, selecting the parent element: <span>Column Wrap 1</span></p>
+            </div>
+          </div>
+          <div class="manual__card">
+            <div class="manual__card-wrapper">
+              <h3 class="manual__card-step">Step 3</h3>
+              <img class="manual__icon" src="img/step3.png" alt="step 3" width="100" height="100">
+              <p class="manual__card-text">With <span>Column Wrap 1</span> selected, click the icon shown above in the Layout > Flex Layout styles panel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

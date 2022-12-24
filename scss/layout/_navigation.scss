@@ -1,0 +1,18 @@
+.sitenav {
+margin-left: auto;
+}
+.sitenav__list {
+display: flex;
+}
+.sitenav__item:not(:last-child) {
+margin-right: 40px;
+}
+.sitenav__link {
+color: $color-white;
+font-size: 13px;
+line-height: 20px;
+}
+
+.sitenav__link:hover{
+  opacity: 0.8;
+}
