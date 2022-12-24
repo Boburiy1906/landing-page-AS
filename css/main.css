@@ -5,6 +5,7 @@
   src: local(""), url("../../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../../fonts/roboto-v30-latin-regular.woff") format("woff");
   font-display: swap;
 }
+
 *,
 *::after,
 *::before {
@@ -269,6 +270,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .manual__card {
@@ -312,4 +314,54 @@ a {
 .manual__card-text span {
   background-color: #3b79c3;
   color: #fff;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.additional {
+  background-color: #fff;
+  color: #333;
+  line-height: 24px;
+}
+
+.additional__container {
+  padding: 100px 0 80px;
+}
+
+.additional__title {
+  margin: 0;
+  margin-bottom: 41px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.additional__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.additional__card {
+  padding: 0 35px 0 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 298px;
+}
+
+.additional__card-img {
+  margin-bottom: 30px;
+  filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
+  border-radius: 3px;
+}
+
+.additional__card-heading {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-size: 18px;
+}
+
+.additionla__card-text {
+  font-size: 15px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=main.css.map */

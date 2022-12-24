@@ -239,3 +239,47 @@
   background-color: $color-step-text;
   color: $color-white;
 }
+
+// ADDITIONAL
+
+.additional {
+  background-color: $color-white;
+}
+
+.additional__container {
+  padding: 80px 0;
+}
+
+.additional__title {
+  margin: 18px 0 41px;
+  font-size: 32px;
+  line-height: 36px;
+  color: $color-black-3;
+}
+
+.additional__cards {
+  display: flex;
+  align-items: center;
+}
+
+.additional__card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 298px;
+}
+
+.additional__card-img {
+  margin-bottom: 30px;
+  filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.2));
+  border-radius: 3px;
+}
+
+.additional__card-heading {
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+
+.additionla__card-text {
+  padding: 20px;
+}
